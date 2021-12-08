@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="ba3bee52f70a3761eeeda8bcf0a9d54795f0280f7fb479c46da4b089f12a5e44.html">Search for a automation course </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-12-2021 23:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search for a automation course
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given than brandon wants to learn automation at the academy Choucair" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Brandon open up" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Brandon opens the Choucair academy page" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Brandon open up (completed)" width="1366"/>
+                <img src="483e44d90192e4c1313e4529c56b86d8627f44fa3a16aeb07ec9be2aded70f0a.png" title=" Brandon login" width="1366"/>
+                <img src="483e44d90192e4c1313e4529c56b86d8627f44fa3a16aeb07ec9be2aded70f0a.png" title=" Brandon clicks on button that shows us the form to login" width="1366"/>
+                <img src="c0527f457bdcd99c28fbbc40dcadfccd3e2757ea80b81528ed652db701f6c8fa.png" title=" Brandon enters 'Laura Daniela' into where do we write the name" width="1366"/>
+                <img src="7d8a862f6779a1675cc5ddfa4e43ce0b5055169676b8f549b89ef6393e52c872.png" title=" Brandon enters 'Paz Silva' into where do we write the lastname" width="1366"/>
+                <img src="d406ca908897f6e4e2e7c2efb61c019cf40871d4308630b2c77275cd6ee3eb26.png" title=" Brandon enters 'gorij1@hotmail.com' into where do we write the mail" width="1366"/>
+                <img src="23e516f6458cecd8547199d912bab39ac3f9ad12a38629fbf8263867acc03348.png" title=" Brandon select September on select the birth month" width="1366"/>
+                <img src="f91bca4d3ef32dd49decf81edce82cd2e6de59d1dcf56dc29fcb4391572eb67c.png" title=" Brandon select 11 on select the birth day" width="1366"/>
+                <img src="881d520362d563ccf831c8c6d4d5e5fda3ae24075fb1fbc1a905e0c1a17fb7d1.png" title=" Brandon select 2001 on select the birth year" width="1366"/>
+                <img src="96d45aed2bf5a96eb90e5aa4634d93c5da84adb36ed275c6aa0c2ac2e4b5d278.png" title=" Brandon clicks on button to confirm info" width="1366"/>
+                <img src="c12dbf2c6f87ee33236ee2dc9720696be1ed925bfda88af2ad7922837f8d9e32.png" title=" Brandon clicks on button to confirm location" width="1366"/>
+                <img src="f9f8b8042757cc621ec35a6ad3e38b4b6dcbd5acfe8862ab74919f171d7d846f.png" title=" Brandon clicks on Click in mobile" width="1366"/>
+                <img src="05457313c071fe99308c34f96153da0ee9424dd961cc4ae421c3958f2a0ff31c.png" title=" Brandon types 'ENTER' in select the mobile" width="1366"/>
+                <img src="9f635897beba6c88b87b407888f0e9cd1910581df4b50c5f932c9c7697e56827.png" title=" Brandon clicks on button to confirm devices" width="1366"/>
+                <img src="79739dc3d853b33508f1d287d39a1730a5e033e3e85173643e763a857674f41b.png" title=" Brandon enters 'D@niela12345*' into where do we write the password" width="1366"/>
+                <img src="76ded8eb46d18ed5e4466980dcaab73e0afd492b84e3a85d6226581fa828b54c.png" title=" Brandon enters 'D@niela12345*' into where do we write the confirmpassword" width="1366"/>
+                <img src="c3b799adb0d3d7f89306187422d615ac1b009bb2c74ee97aa184e624a3536a61.png" title=" Brandon clicks on button to confirm info" width="1366"/>
+                <img src="ad11c42412375be021a4aa07c258ac75c1a4424021fa5ca6873a33ec018aeaa5.png" title=" Brandon clicks on button to confirm info" width="1366"/>
+                <img src="e72b352b3f324ac270f537e30667b6babe6e35325e4bb9daa342ff5c1ff20b95.png" title=" Brandon clicks on button to confirm info" width="1366"/>
+                <img src="e72b352b3f324ac270f537e30667b6babe6e35325e4bb9daa342ff5c1ff20b95.png" title=" Brandon login (completed)" width="1366"/>
+                <img src="e72b352b3f324ac270f537e30667b6babe6e35325e4bb9daa342ff5c1ff20b95.png" title=" Given than brandon wants to learn automation at the academy Choucair (completed)" width="1366"/>
+                <img src="69593c2e002d53d73a640c90023da5873ac96571f9ee01b4745ce9907a89767b.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform" width="1366"/>
+                <img src="69593c2e002d53d73a640c90023da5873ac96571f9ee01b4745ce9907a89767b.png" title=" Then he finds the course called resources Recursos Automatizacion Bancolombia: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
